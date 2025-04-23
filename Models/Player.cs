@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlobTrigger.Models
+namespace QueueTrigger.Models
 {
     public class Player
     {
@@ -47,6 +47,5 @@ namespace BlobTrigger.Models
         public decimal PAI_0003800_Monthly_Deposits_Last_30_Days_Total_Deposits { get; set; }
         public decimal PAI_0003900_Monthly_Withdrawals_Last_30_Days { get; set; }
         public int PAI_0004000_Enhanced_Due_Diligence_Status_ID { get; set; }
-
     }
 }
